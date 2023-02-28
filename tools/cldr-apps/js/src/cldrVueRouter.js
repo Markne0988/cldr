@@ -12,7 +12,6 @@ import {
   Button,
   Checkbox,
   Form,
-  Icon,
   Input,
   Popover,
   Progress,
@@ -137,7 +136,6 @@ function setupComponents(app) {
   app.component("a-radio-group", Radio.Group);
   app.component("a-form-item", Form.Item);
   app.component("a-form", Form);
-  app.component("a-icon", Icon);
   app.component("a-input-password", Input.Password);
   app.component("a-input", Input);
   app.component("a-popover", Popover);
